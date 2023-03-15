@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    border: solid red 1px;
+}
+
+html, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap-reverse;
+}
+
+.left{
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 400px;
+}
+
+main{
+    flex-grow: 3;
+    flex-basis: 0;
+    min-width: 400px;
+}
+
+.right{
+    flex-grow: 1;
+    flex-basis: 0;
+    min-width: 400px;
+}
+
+footer{
+    height: 100px;
+}
+
+header{
+    height: 200px;
+}
